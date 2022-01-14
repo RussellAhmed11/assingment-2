@@ -1,0 +1,125 @@
+/* common css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.countainer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section_title{
+    display: flex;
+    justify-content: center;
+}
+.section_title h1{
+    border-left: 3px solid #e02c6d;
+    border-right: 3px solid #e02c6d;
+    padding: 0px 10px;
+    margin: 50px 0px;
+}
+.high_light{
+    color: #e02c6d;
+}
+.primary_button{
+    background-color: #e02c6d;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 25px;
+    border-radius: 20px;
+    border: 3px solid #e02c6d;
+    transition: .3s linear;
+}
+.primary_button:hover{
+   background-color:transparent;
+   color: #e02c6d;
+}
+/* header css */
+.header_area{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.3em;
+    color: rgb(17, 16, 16);
+}
+/* banneer css */
+.banner_area{
+    display:flex;
+    height: 100vh;
+}
+.banner_left{
+    flex: 1;
+    display: flex;
+    align-items:center;
+}
+.banner_left h1{
+    color: #3a3a3a;
+    font-size: 3em;
+}
+.banner_left p{
+    line-height: 2;
+    margin-bottom: 20px;
+}
+.banner_right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_right img{
+    width: 80%;
+}
+/* collection css */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.5em;
+}
+.collection{
+    border: 15px solid #ffff;
+    box-shadow:10px 10px 40px gray;
+    border-radius: 10px;
+}
+.thumbai img{
+    width: 100%;
+}
+.ratting{
+    display: flex;
+}
+.star{
+    color: #dbba59;
+    padding-right: 10px;
+
+}
+
+/* fotter css */
+footer{
+    background-color: #0a0826;
+    margin-top: 50px;
+   
+}
+.fotter_items{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+.fotter_items h3{
+    color: #fff;
+}
+.fotter_items p{
+    color: #797982;
+}
+.fotter_items i{
+    padding-right: 5px;
+}
