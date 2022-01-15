@@ -79,6 +79,8 @@ nav ul li a{
 }
 .banner_right img{
     width: 80%;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
 }
 /* collection css */
 .collections{
@@ -88,8 +90,9 @@ nav ul li a{
 }
 .collection{
     border: 15px solid #ffff;
-    box-shadow:10px 10px 40px gray;
+    box-shadow:10px 10px 10px 5px gray;
     border-radius: 10px;
+    height: 420px;
 }
 .thumbai img{
     width: 100%;
@@ -102,7 +105,36 @@ nav ul li a{
     padding-right: 10px;
 
 }
-
+.see_more_btn a{
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #e02c6d;
+  background: transparent;
+  float:right;
+  padding: 20px 0px;
+  font-weight: 750;
+}
+/* contact css */
+.contact_area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2.5em;    
+}
+.contact_area_left img{
+    width: 100%;
+}
+.contact_area_right form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.2em;
+}
+.contact_area_right form .text_filed{
+    outline: 0;
+    border: 1px solid #e02c6d;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 10px 10px;
+}
 /* fotter css */
 footer{
     background-color: #0a0826;
