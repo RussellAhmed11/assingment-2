@@ -92,10 +92,13 @@ nav ul li a{
     border: 15px solid #ffff;
     box-shadow:10px 10px 10px 5px gray;
     border-radius: 10px;
-    height: 420px;
+    height: 440px;
 }
 .thumbai img{
     width: 100%;
+}
+.collection_info h2{
+    padding: 10px 0px;
 }
 .ratting{
     display: flex;
@@ -155,3 +158,4 @@ footer{
 .fotter_items i{
     padding-right: 5px;
 }
+/* responseve css */
