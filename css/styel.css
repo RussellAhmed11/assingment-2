@@ -58,6 +58,10 @@ nav ul li a{
     display:flex;
     height: 100vh;
     min-height: 500px;
+    transition: transform .3s ease-in-out;
+}
+.banner_area:hover{
+    transform:scale(1.1);
 }
 .banner_left{
     flex: 1;
