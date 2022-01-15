@@ -166,6 +166,9 @@ footer{
 }
 /* responseve css */
 @media (max-width:768px) {
+    nav{
+        display: none;
+    }
     .countainer{
         margin: 0px 20px;
     }
@@ -177,6 +180,12 @@ footer{
     }
 }
 @media (max-width:576px){
+    .countainer{
+        margin: 0 auto;
+    }
+    nav{
+        display: none;
+    }
     .banner_area{
         display: grid;
         grid-template-columns: 1fr;
@@ -185,13 +194,15 @@ footer{
         order: 2;
         display: flex;
         justify-content: center;
+        margin-top: 50px;
     }
     .banner_left h1{
-        font-size: 1.8em;
-        text-align: justify;
+        font-size: 2em;
+        text-align: center;
     }
     .banner_left p{
         line-height: 1.4;
+        text-align: center;
     }
     .banner_right{
         order: 1;
@@ -199,9 +210,9 @@ footer{
     .banner_right img{
         width: 100%;
     }
-    .section_title{
-        margin-top: 100px;
-    }
+     .section_title{
+         margin-top: 150px;
+     }
     .collections{
         grid-template-columns: 1fr;
     }
