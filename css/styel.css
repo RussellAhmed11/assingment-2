@@ -165,10 +165,12 @@ footer{
     padding-right: 5px;
 }
 /* responseve css */
-@media (max-width:768px) {
+@media (max-width:826px) {
     nav{
         display: none;
     }
+}
+@media (max-width:768px) {
     .countainer{
         margin: 0px 20px;
     }
@@ -211,7 +213,8 @@ footer{
         width: 100%;
     }
      .section_title{
-         margin-top: 150px;
+        margin-top: 250px;
+
      }
     .collections{
         grid-template-columns: 1fr;
